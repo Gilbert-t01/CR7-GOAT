@@ -1,0 +1,89 @@
+animacion ronaldo
+
+css:
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(3, , 248);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    background-color: #808080;
+    color: #fff;
+    text-emphasis-color: white;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+
+.slider{
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+
+}
+.slider ul{
+    display:flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+    
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 150%;
+}
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+     
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+html:
+<div class="slider">
+        <ul>
+          <li>
+              <img src="imagenes/1248204.jpg" alt="">
+          </li>
+          <li>
+              <img src="imagenes/1275915.jpg" alt="">
+          </li>
+          <li>
+              <img src="imagenes/642556.jpg" alt="">
+          </li>
+          <li>
+              <img src="imagenes/968923.jpg" alt="">
+          </li>
+        </ul>
+      </div>
